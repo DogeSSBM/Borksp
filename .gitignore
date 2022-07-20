@@ -1,3 +1,6 @@
+*.tags
+*.notes
+
 # Prerequisites
 *.d
 
