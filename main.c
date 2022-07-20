@@ -1,14 +1,13 @@
 #include "Includes.h"
 
-void greet(void)
-{
-    printf("Henlo, doge!\n");
-}
-
 int main(int argc, char **argv)
 {
-    (void)argc;
-    (void)argv;
-    greet();
+    if(argc != 2)
+        panic("Usage: %s <Source File>\n", argv[0]);
+
+    char *src = fileReadText(argv[1]);
+    printf("src -\n%s\n", src);
+    free(src);
+
     return 0;
 }
