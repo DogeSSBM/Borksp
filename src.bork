@@ -1,13 +1,21 @@
-This is src code...
+add(
+    div(
+        8
+        sub(
+            4
+            2
+        )
+    )
+    mul(
+        3
+        2
+    )
+)
 
-... or something ...
+2
 
-idk really
+mul(3 3)
 
-:3
-
-
-owo
-
-
-uwu
+T_EXP add{
+    T_EXP
+}
